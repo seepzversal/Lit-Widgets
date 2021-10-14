@@ -16,7 +16,7 @@ count = 0;
         //<h2>This is the parent</h2>
         //<button type="button">+</button>
         //<button type="button">-</button>
-        //<h2>${this.count}</h2>
+        
         
         //<child-app></child-app>
             return html`
