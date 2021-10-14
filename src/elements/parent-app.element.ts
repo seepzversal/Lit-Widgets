@@ -27,11 +27,11 @@ count = 0;
             
             <body><child-app></child-app></body>`;
         }
-        //for incrementing the counter by 1
+        //for incrementing the counter by 10
         private increment() {
             this.count=this.count+10;
         }
-        //for decrementing the counter by 1
+        //for decrementing the counter by 10
         private decrement() {
             this.count=this.count-10;
         }
