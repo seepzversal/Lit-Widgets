@@ -6,6 +6,8 @@ import "./elements/header-app.element";
 import "./elements/footer-app.element";
 import "./elements/content-app.element";
 import "./elements/name-app.element";
+import "./elements/parent-app.element";
+import "./elements/child-app.element";
 
 // import "./elements/demo-app.element";
 // import "./elements/review-app.element";
