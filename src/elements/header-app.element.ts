@@ -7,6 +7,7 @@ class HeaderElement extends LitElement {
   render() {
     return html`
       <h2>This is the header</h2>
+      <hr/>
       <parent-app></parent-app>
       `;
   }

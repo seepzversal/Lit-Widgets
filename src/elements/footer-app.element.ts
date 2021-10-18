@@ -7,6 +7,7 @@ class FooterElement extends LitElement {
   render() {
     return html`
       <h2>This is the footer</h2>
+      <hr/>
       <body><card-app></card-app></body>
 
     `;

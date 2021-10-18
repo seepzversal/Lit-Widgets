@@ -33,6 +33,6 @@ count = 0;
             <button @click=${this.decrement}>-</button>
             <h2>${this.count}</h2>
             
-            <body><child-app></child-app></body>`;
+            <body><child-app count=${this.count}></child-app></body>`;
         }
     }
