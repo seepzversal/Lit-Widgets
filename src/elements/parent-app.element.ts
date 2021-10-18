@@ -9,7 +9,15 @@ class ParentElement extends LitElement {
 @property({type: Number})
 count = 0;
    
-    
+    //for incrementing the counter by 10
+     private increment() {
+        this.count=this.count+10;
+    }
+    //for decrementing the counter by 10
+    private decrement() {
+        this.count=this.count-10;
+        
+    }
     render() {
         
         //return html`
@@ -23,20 +31,8 @@ count = 0;
             <h2>This is the parent component</h2>
             <button @click=${this.increment}>+</button>
             <button @click=${this.decrement}>-</button>
-            <h2> ${this.count}</h2>
+            <h2>${this.count}</h2>
             
             <body><child-app></child-app></body>`;
         }
-        //for incrementing the counter by 10
-        private increment() {
-            this.count=this.count+10;
-        }
-        //for decrementing the counter by 10
-        private decrement() {
-            this.count=this.count-10;
-        }
-       
-        
-         
-
-}
+    }

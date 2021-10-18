@@ -11,7 +11,7 @@ class ChildElement extends LitElement {
     return html`
       <h2>This is the child component</h2>
       
-      <h2> ${this.count}</h2>
+      <h2>${this.count}</h2>
      `;
   }
   
