@@ -10,6 +10,8 @@ import "./elements/parent-app.element";
 import "./elements/child-app.element";
 import "./elements/card-app.element";
 import "./elements/name-card.element";
+import "./elements/formparent-app.element";
+import "./elements/formchild-app.element";
 
 // import "./elements/demo-app.element";
 // import "./elements/review-app.element";
